@@ -35,7 +35,6 @@ package-lock.json
 yarn.lock
 
 # Ambiente de produção (Exemplo)
-.env
 
 # Arquivos temporários do npm
 .npm/
@@ -45,4 +44,13 @@ yarn.lock
 
 # Diretório de testes
 /coverage/
+
+# Arquivos de configuração sensíveis
+.env
+config.json
+secrets.json
+
+# Outros arquivos que não devem ser versionados
+node_modules/
+*.log
 
